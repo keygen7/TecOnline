@@ -1,0 +1,242 @@
+/*Todo el código y diseño HTML y CSS fue escrito a mano sin ningún tipo de asistencia*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.menu-container {
+	/*#D0E84C*/
+	background-color: #7294FC;
+	color: #272F35;
+	padding: 20px 0;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.menu {
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	font-family: sans-serif;
+	font-weight: 555;
+	
+}
+
+a:link{
+	text-decoration: none;
+	text-decoration-color: #272F35;
+	color: #272F35;
+}
+
+a:visited {
+	text-decoration: none;
+	text-decoration-color: #272F35;
+	color: #272F35;
+	
+}
+
+a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.header-container {
+	display: flex;
+	justify-content: center;
+	
+}
+
+.header{
+	/*border: 1px solid #CC0C0F;*/
+	width: 1200px;
+	height: 300px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+
+.social, .opciones {
+	
+	display: flex;
+	align-self: flex-end;
+	margin-bottom: 20px;
+	color: #272F35;
+	font-family: sans-serif;
+	font-weight: 600;
+	
+	
+}
+
+.redes {
+	margin: 0 1px;
+}
+
+.opciones {
+	display: flex;
+	width: 105px;
+	padding: 10px 0 10px;
+	/*background-color: #7294FC;*/
+	border: 2px solid #7294FC;
+	justify-content: center;
+	border-radius: 5px;
+}
+
+.photo-grid-container {
+	margin-top: 60px;
+	display: flex;
+	justify-content: center;
+}
+
+.photo-grid {
+	display: flex;
+ 	justify-content: center;
+	flex-direction: row;
+	
+}
+
+.photo-grid-item{
+	display: flex;
+	width: 200px;
+	height: 300px;
+	/*border: 1px solid #CC0C0F;*/
+	align-items: center;
+	flex-direction: column;
+}
+
+ ul{
+	display: flex;
+	list-style: none;
+	flex-direction: column;
+	justify-content: space-around;
+	justify-content: space-between;
+	color: #272F35;
+}
+
+.photo-grid-item > hr{
+	color: #D0E84C;
+	height: 3px;
+	background-color: #D0E84C;
+	width: 170px;
+}
+
+.photo-grid-item > p {
+	font-family: sans-serif;
+	font-weight: 600;
+	color: #272F35;
+}
+
+.contenedor-carrito {
+	
+	display: flex;
+	justify-content: center;
+}
+
+.carrito {
+	display: flex;
+	justify-content: center;
+	align-content: space-between;
+	padding: 4px;
+	/*background-color: #7294FC;*/
+	border: 2px solid #7294FC;
+	width: 200px;
+	border-radius: 10px;
+	font-family: sans-serif;
+	font-weight: 600;
+	color: #272F35;
+	
+}
+.footer{
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.footer-item {
+	
+	margin-top: 150px;
+	border: 1px solid #fff;
+	background-color: #7294FC;
+	height: 200px;
+	flex: 1;
+	padding: 20px;
+}
+
+.footer-uno, .footer-tres {
+	background-color: #D0E84C;
+	flex: initial;
+	width: 300px;
+}
+
+.signup {
+	margin-left: auto;
+	margin-right: 20px;
+}
+
+.contenido-secundario {
+	display: flex;
+	justify-content: center;
+	padding: 200px;
+	margin-bottom: -180px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	
+	
+}
+
+.contenedor-textosec {
+	
+	
+	text-align: justify;
+	display: flex;
+	flex-direction: column;
+	
+	justify-content: center;
+	padding: 15px;
+	
+}
+
+.contenedor-textosec > p > strong {
+	color: #7294FC;
+}
+
+.imagen-sec > img {
+  	width: 400px;
+	height: 300px;
+	
+}
+
+.imagen-sec {
+	
+	display: flex;
+	flex-wrap: wrap;
+	
+	
+}
+
+
+
+.vinetas {
+	list-style: circle;
+	
+}
+
+.vinetas > li > strong {
+	color: #7294FC;
+}
+
+.barra-compras{
+	display: flex;
+	background: #B7EA02;
+	justify-content: flex-end;
+}
+
+.barra-compras > a{
+	padding-right: 70px;
+}
+
+
